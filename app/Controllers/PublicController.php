@@ -1,17 +1,17 @@
 <?php
+namespace App\Controllers;
+
+use \Core\Controller;
+
 /**
- * PublicController.php
- * ------------
+ * Class PublicController
  *
- * @author  :  RIBES Alexandre
- * @contact : ribes.alexandre@gmail.com
- * @website : http://www.alexandre-ribes.fr
+ * @package app\Controllers
  */
-
-namespace app\Controllers;
-
-
-class PublicController
+class PublicController extends Controller
 {
-	
+	public function __construct()
+	{
+		parent::__constuct();
+	}
 }

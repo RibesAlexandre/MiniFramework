@@ -1,17 +1,17 @@
 <?php
+namespace App\Controllers\Admin;
+
+use \Core\Controller;
+
 /**
- * PrivateController.php
- * ------------
+ * Class PrivateController
  *
- * @author  :  RIBES Alexandre
- * @contact : ribes.alexandre@gmail.com
- * @website : http://www.alexandre-ribes.fr
+ * @package App\Controllers\Admin
  */
-
-namespace app\Controllers\Admin;
-
-
-class PrivateController
+class PrivateController extends Controller
 {
-	
+	public function __construct()
+	{
+		parent::__construct();
+	}
 }
